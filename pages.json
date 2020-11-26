@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "爱懒超市",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于爱懒"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区图片"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "学习视频"
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}, 
+		{
+			"path": "pages/newsdetails/newsdetails",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "爱懒商城",
+		"navigationBarBackgroundColor": "#B50E03",
+		"backgroundColor": "#eee"
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#B50E03",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabs/home.png",
+				"selectedIconPath": "static/images/tabs/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/images/tabs/news.png",
+				"selectedIconPath": "static/images/tabs/news-active.png",
+				"text": "资讯"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/images/tabs/cart.png",
+				"selectedIconPath": "static/images/tabs/cart-active.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/images/tabs/member.png",
+				"selectedIconPath": "static/images/tabs/member-active.png",
+				"text": "会员"
+			}
+		]
+	}
+}
